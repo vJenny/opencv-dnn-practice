@@ -133,11 +133,11 @@ Caffe и их применения для решения задачи класс
 
 <!-- LINKS -->
 
-[purpose]: https://github.com/UNN-VMK-Software/opencv-dnn-practice/blob/master/README.md#%D0%A6%D0%B5%D0%BB%D0%B8
-[tasks]: https://github.com/UNN-VMK-Software/opencv-dnn-practice/blob/master/README.md#%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B8
-[scheme]: https://github.com/UNN-VMK-Software/opencv-dnn-practice/blob/master/README.md#%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B
-[repo-structure]: https://github.com/UNN-VMK-Software/opencv-dnn-practice/blob/master/README.md#%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F
-[refs]: https://github.com/UNN-VMK-Software/opencv-dnn-practice/blob/master/README.md#%D0%9F%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B5-%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8
+[purpose]: https://github.com/UNN-VMK-Software/opencv-dnn-practice#%D0%A6%D0%B5%D0%BB%D0%B8
+[tasks]: https://github.com/UNN-VMK-Software/opencv-dnn-practice#%D0%97%D0%B0%D0%B4%D0%B0%D1%87%D0%B8
+[scheme]: https://github.com/UNN-VMK-Software/opencv-dnn-practice#%D0%9F%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C-%D0%B2%D1%8B%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B
+[repo-structure]: https://github.com/UNN-VMK-Software/opencv-dnn-practice#%D0%A1%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B0-%D1%80%D0%B5%D0%BF%D0%BE%D0%B7%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D1%8F
+[refs]: https://github.com/UNN-VMK-Software/opencv-dnn-practice#%D0%9F%D0%BE%D0%BB%D0%B5%D0%B7%D0%BD%D1%8B%D0%B5-%D1%81%D1%81%D1%8B%D0%BB%D0%BA%D0%B8
 [opencv]: http://opencv.org
 [caffe]: http://caffe.berkeleyvision.org
 [caffemodel]: http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel
