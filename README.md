@@ -58,6 +58,18 @@
 Примечание: для повышения сложности дополнительных задач
 можно выполнить отображение в одном окне.
 
+## Программное обеспечение
+
+Для выполнения практической работы необходимо использовать
+следующее программное обеспечение:
+
+1. Утилита [CMake][cmake] (версия не ниже 2.8).
+1. Git-клиент (например, [git-scm][git-scm]).
+1. Библиотека [OpenCV][opencv] (версия не ниже 3.1.0, далее
+   при описании используется 3.3.0).
+1. Среда разработки (работа проверялась Microsoft Visual
+   Studio 2015 Win64).
+
 ## Структура репозитория
 
 Репозиторий содержит следующие директории и файлы:
@@ -72,7 +84,7 @@
 - `.gitignore` - перечень директорий/файлов, которые игнорируются
   системой контроля версий.
 
-## Последовательность выполнения работы
+## Общая последовательность выполнения работы
 
 1. Загрузить проект из репозитория GitHub и создать рабочую ветку
    в соответствии с вашим ФИО (например, IvanovAA).
@@ -81,6 +93,10 @@
    git clone https://github.com/UNN-VMK-Software/opencv-dnn-practice
    git checkout -b IvanovAA
    ```
+   
+   Примечание: для более детального изучения возможностей системы
+   контроля версий Git рекомендуется воспользоваться
+   [материалами Летней межвузовской школы 2016][itseez-ss-2016-practice-1].
 
 1. Создать директорию для размещения файлов решения и проекта,
    перейти в эту директорию и собрать файлы проекта с помощью CMake.
@@ -91,9 +107,10 @@
    cmake -DOpenCV_DIR="c:\Program Files\OpenCV-3.3.0\opencv\build" -G "Visual Studio 14 2015 Win64" ..\opencv-dnn-practice
    ```
 
-   Примечание: в опции `OpenCV_DIR="c:\Program Files\OpenCV-3.3.0\opencv\build"`
-   необходимо указать путь до 	файла `OpenCVConfig.cmake` библиотеки
-   OpenCV-3.3.0.
+   Примечания:
+   - В опции `OpenCV_DIR="c:\Program Files\OpenCV-3.3.0\opencv\build"`
+     необходимо указать путь до 	файла `OpenCVConfig.cmake` библиотеки
+     OpenCV-3.3.0.
 
 1. Открыть решение `opencv_dnn_practice.sln` и собрать проекты,
    входящие в его состав, нажав правой кнопкой мыши по проекту
@@ -147,3 +164,6 @@
 [opencv]: http://opencv.org
 [caffe]: http://caffe.berkeleyvision.org
 [caffemodel]: http://dl.caffe.berkeleyvision.org/bvlc_googlenet.caffemodel
+[itseez-ss-2016-practice-1]: https://github.com/itseez-academy/itseez-ss-2016-practice/blob/master/docs/README_1.md
+[cmake]: http://cmake.org
+[git-scm]: https://git-scm.com
