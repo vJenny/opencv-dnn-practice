@@ -133,6 +133,9 @@
    - Файл, содержащий перечень распознаваемых классов изображений.
      Для набора ImageNet указанный файл также есть в пакете OpenCV
 	 `c:\Program Files\OpenCV-3.3.0\opencv\sources\samples\data\dnn\synset_words.txt`.
+   
+   Примечание: чтение параметров рекомендуется реализовать
+   с использованием класса [`cv::CommandLineParser`][commline-parser].
 
 1. Добавить код для загрузки изображения для классификации.
 
@@ -169,3 +172,4 @@
 [cmake]: http://cmake.org
 [git-scm]: https://git-scm.com
 [ms-vs2015]: https://www.visualstudio.com/ru/vs/older-downloads
+[commline-parser]: http://docs.opencv.org/trunk/d0/d2e/classcv_1_1CommandLineParser.html#details
