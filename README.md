@@ -66,9 +66,10 @@
 1. Утилита [CMake][cmake] (версия не ниже 2.8).
 1. Git-клиент (например, [git-scm][git-scm]).
 1. Библиотека [OpenCV][opencv] версии 3.3.0.
-1. Среда разработки (далее используется Microsoft Visual
-   Studio 2015 Win64, поскольку в состав пакета OpenCV 3.3.0
-   входят бинарники, собранные под эту версию среды).
+1. Среда разработки (далее используется
+   [Microsoft Visual Studio 2015 Win64][ms-vs2015], поскольку
+   в состав пакета OpenCV 3.3.0 входят бинарники, собранные
+   для указанной версии среды).
 
 ## Структура репозитория
 
@@ -167,3 +168,4 @@
 [itseez-ss-2016-practice-1]: https://github.com/itseez-academy/itseez-ss-2016-practice/blob/master/docs/README_1.md
 [cmake]: http://cmake.org
 [git-scm]: https://git-scm.com
+[ms-vs2015]: https://www.visualstudio.com/ru/vs/older-downloads
