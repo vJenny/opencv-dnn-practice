@@ -85,9 +85,9 @@ Caffe и их применения для решения задачи класс
    cmake -DOpenCV_DIR="c:\Program Files\OpenCV-3.3.0\opencv\build" -G "Visual Studio 14 2015 Win64" ..\opencv-dnn-practice
    ```
 
-Примечание: в опции `OpenCV_DIR="c:\Program Files\OpenCV-3.3.0\opencv\build"`
-необходимо указать путь до 	файла `OpenCVConfig.cmake` библиотеки
-OpenCV-3.3.0.
+   Примечание: в опции `OpenCV_DIR="c:\Program Files\OpenCV-3.3.0\opencv\build"`
+   необходимо указать путь до 	файла `OpenCVConfig.cmake` библиотеки
+   OpenCV-3.3.0.
 
 1. Открыть решение `opencv_dnn_practice.sln` и собрать проекты,
    входящие в его состав, нажав правой кнопкой мыши по проекту
