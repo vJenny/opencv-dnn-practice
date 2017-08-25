@@ -152,6 +152,7 @@
 	 `c:\Program Files\OpenCV-3.3.0\opencv\sources\samples\data\dnn\synset_words.txt`.
    
    Примечание: обратите внимание, что у вас пути могут отличаться.
+   
    Указание: чтение параметров рекомендуется реализовать
    с использованием класса [`cv::CommandLineParser`][commline-parser].
 
