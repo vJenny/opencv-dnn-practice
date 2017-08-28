@@ -115,6 +115,8 @@ int main(int argc, char* argv[])
 ## Функция Sobel
 
 ```cpp
+// Пример выделения краев на изображении
+
 #include <iostream>
 #include <opencv2/imgproc.hpp>
 #include <opencv2/highgui.hpp> 
@@ -182,6 +184,8 @@ int main(int argc, char* argv[])
 ## Функция Laplacian
 
 ```cpp
+// Пример выделения краев на изображении
+
 #include <iostream>
 #include <opencv2/imgproc.hpp>
 #include <opencv2/highgui.hpp> 
@@ -285,6 +289,8 @@ int main(int argc, char* argv[])
 ## Функция Canny
 
 ```cpp
+// Пример выделения краев на изображении
+
 #include <iostream>
 #include <opencv2/imgproc.hpp>
 #include <opencv2/highgui.hpp> 
