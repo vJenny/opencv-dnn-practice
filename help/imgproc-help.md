@@ -1,5 +1,15 @@
 # Примеры использования модуля imgproc библиотеки OpenCV
 
+## Содержание
+
+1. [Функция blur][blur]
+1. [Функция filter2D][filter2D]
+1. [Функция Sobel][Sobel]
+1. [Функция Laplacian][Laplacian]
+1. [Функции erode/dilate][erode_dilate]
+1. [Функция Canny][Canny]
+1. [Функция calcHist][calcHist]
+
 ## Функция blur
 
 ```cpp
@@ -409,3 +419,13 @@ int main(int argc, char* argv[])
     return 0;
 }
 ```
+
+<!-- LINKS -->
+
+[blur]: https://github.com/UNN-VMK-Software/opencv-dnn-practice/help/imgproc-help.md#%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F-blur
+[filter2D]: https://github.com/UNN-VMK-Software/opencv-dnn-practice/help/imgproc-help.md#%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F-filter2d
+[Sobel]: https://github.com/UNN-VMK-Software/opencv-dnn-practice/help/imgproc-help.md#%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F-Sobel
+[Laplacian]: https://github.com/UNN-VMK-Software/opencv-dnn-practice/help/imgproc-help.md#%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F-Laplacian
+[erode_dilate]: https://github.com/UNN-VMK-Software/opencv-dnn-practice/help/imgproc-help.md#%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F-erodedilate
+[Canny]: https://github.com/UNN-VMK-Software/opencv-dnn-practice/help/imgproc-help.md#%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F-Canny
+[calcHist]: https://github.com/UNN-VMK-Software/opencv-dnn-practice/help/imgproc-help.md#%D0%A4%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D1%8F-calcHist
