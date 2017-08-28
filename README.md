@@ -94,7 +94,7 @@
 1. Загрузить проект из репозитория GitHub и создать рабочую ветку
    в соответствии с вашим ФИО (например, IvanovAA).
 
-   ```
+   ```bash
    git clone https://github.com/UNN-VMK-Software/opencv-dnn-practice
    cd opencv-dnn-practice
    git checkout -b IvanovAA
@@ -108,7 +108,7 @@
 1. Создать директорию для размещения файлов решения и проекта,
    перейти в эту директорию и собрать файлы проекта с помощью CMake.
 
-   ```
+   ```bash
    mkdir opencv-dnn-practice-build
    cd opencv-dnn-practice-build
    cmake -DOpenCV_DIR="c:\Program Files\OpenCV-3.3.0\opencv\build" -G "Visual Studio 14 2015 Win64" ..\opencv-dnn-practice
@@ -181,7 +181,16 @@
    классов изображений из файла и получить содержательное
    описание класса.
 
+1. Выложить результаты решения основных задач на GitHub
+   в созданную вами ветку.
+
+   ```bash
+   git commit -m "Main problems" -a
+   git push origin IvanovAA
+   ```
+
 1. Выполнить дополнительные задачи практической работы.
+
 
 <!-- LINKS -->
 
